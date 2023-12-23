@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pinterest</title>
+    <title>Pinterest | Login</title>
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
@@ -15,25 +15,13 @@
           alt="pin logo"
           class="img1"
         />
-        <p class="header">make account to see more!</p>
+        <p class="header">login account to see more!</p>
 
-        <form action="/register" method="post">
-          <input
-            name="email"
-            type="email"
-            placeholder="Email"
-            class="detail"
-          /><br />
+        <form action="/login" method="post">
           <input
             name="username"
             type="text"
             placeholder="Username"
-            class="detail"
-          /><br />
-          <input
-            name="fullname"
-            type="text"
-            placeholder="Full Name"
             class="detail"
           /><br />
           <input
@@ -42,27 +30,10 @@
             placeholder="Password"
             class="detail"
           />
-          <input type="submit" class="btn int" value="Register My Account"></input>
+          <input type="submit" class="btn int" value="Login My Account"></input>
         </form>
 
         <a href="/forgot">Forgot your password?</a>
-
-
-        <p class="or">OR</p>
-        <button class="btn fbk">
-          <i
-            class="fab fa-facebook fa-lg"
-            style="color: white; padding-right: 10px"
-          ></i
-          ><a href="#">Continue with Facebook</a></button
-        ><br />
-        <button class="btn ggl">
-          <i
-            class="fab fa-google"
-            style="color: rgb(11, 241, 22); padding-right: 10px"
-          ></i
-          ><a href="#">Continue with Google</a>
-        </button>
 
         <footer>
           <p>
@@ -70,10 +41,10 @@
             <b>Terms of Service, Privacy policy.</b>
           </p>
           <hr />
-          <a href="/login">Already on Pinterest? Login</a>
+          <a href="/">Not on Pinterest yet? Sign up</a>
         </footer>
       </div>
     </div>
-    
+  
   </body>
 </html>
