@@ -37,6 +37,7 @@ router.get("/alluserposts", async function (req, res, next) {
   let user = await userModel
     .findOne({ _id: "6586e95c7cbfe16e84f44a8e" })
     .populate("posts");
+
   res.send(user);
 });
 
