@@ -1,3 +1,9 @@
 For authentication Passport.js authentication middleware is used, Passport support various autherntication strategies including local(username and password)mOAuth and other. Here local autherntication strategy has been implemented. (passport-local-mongoose: This module is a Mongoose plugin that simplifies the process of setting up local authentication using Passport with Mongoose. It integrates Passport's local strategy with Mongoose's data models, making it easier to work with user authentication in MongoDB-based applications.) (imp:  It takes care of hashing passwords, salting, and other security-related tasks, reducing the boilerplate code you need to write for user authentication.)
 
 Used connect-flash middleware to help show error messages in case of wrong login. (wrong username or password). [Flash messages are short-lived messages that are typically used to convey information to the user after a redirect. They are useful for scenarios like displaying success or error messages after a form submission.]
+
+
+
+working with creating POSTS on profile page and feed; 
+concept of - multer
+post,image,caption,upload post functionality on profile page

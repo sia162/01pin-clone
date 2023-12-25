@@ -11,6 +11,13 @@ body {
   padding: 20px;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: start;
+}
+
 .cardprs {
   background-color: #fff;
   border-radius: 5px;
